@@ -38,7 +38,16 @@ int main() {
         printf("Rainha: Esquerda \n");
         k++;
     } while (k <= 8);
-    
+
+    //cavalo move para baixo e esquerda
+
+    for(int i = 2; i > 1; i--){
+        while (k <=2)
+        {   
+    printf("Cavalo: baixo");
+            }
+    printf("Cavalo: Esquerda");
+    }
 
 
     return 0;
